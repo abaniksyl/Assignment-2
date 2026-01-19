@@ -16,11 +16,11 @@
     <header class="bg-color">
         <!-- navigation section -->
         <nav class="display-flex">
-            <h3 class="nav-title">Tech<span id="nav-wave">Wave</span></h3>
+            <h3 class="nav-title">Tech<span class="nav-wave">Wave</span></h3>
             <ul class="display-flex">
-                <ol><a class="text-color" href="">About</a></ol>
-                <ol><a class="text-color" href="">Episodes</a></ol>
-                <ol><a class="text-color" href="">Host</a></ol>
+                <li><a class="text-color" href="">About</a></li>
+                <li><a class="text-color" href="">Episodes</a></li>
+                <li><a class="text-color" href="">Host</a></li>
             </ul>
             <button class="btn-primary">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
         </nav>
@@ -70,37 +70,46 @@
         </section>
         <!-- Why Choose TechWave section -->
         <section id="techwave-section" class="text-color">
-            <h2>Why Choose TechWave</h2>
-            <aside>
-                <img src="" alt="">
-                <h4>Premium Audio Quality</h4>
-                <p>Experience crystal-clear sound with professional-grade recording equipment and expert audio
-                    engineering. Every episode
-                    is mastered for optimal listening across all devices and platforms.</p>
-            </aside>
-            <article>
-                <img src="" alt="">
-                <h4>Mobile Friendly</h4>
-                <p>Listen on the go with seamless mobile experience and offline downloads.</p>
-            </article>
-            <article>
-                <img src="" alt="">
-                <h4>Global Community</h4>
-                <p>Connect with tech enthusiasts from over 120 countries worldwide.</p>
-            </article>
-            <aside>
-                <img src="" alt="">
-                <h4>Exclusive Interviews</h4>
-                <p>Get unprecedented access to industry titans, startup founders, and tech visionaries. Our host secures
-                    exclusive
-                    conversations you won't find anywhere else, diving deep into their journeys, failures, and success
-                    strategies.</p>
-            </aside>
-            <footer>
-                <img src="" alt="">
-                <h4>Rich Resources</h4>
-                <p>Access show notes, transcripts, and additional learning materials for every episode.</p>
-            </footer>
+            <h2 id="techwave-title" class="display-flex">Why Choose TechWave</h2>
+            <div class="techwave-card">
+                <aside id="premium" class="techwave-color">
+                    <img src="./assets/headphone.png" alt="headphone">
+                    <h4 class="techwave-card-title">Premium Audio Quality</h4>
+                    <p class="techwave-card-paragraph">Experience crystal-clear sound with professional-grade recording
+                        equipment and expert audio
+                        engineering. Every episode
+                        is mastered for optimal listening across all devices and platforms.</p>
+                </aside>
+                <article id="mobile" class="techwave-color">
+                    <img src="./assets/device.png" alt="device">
+                    <h4 class="techwave-card-title">Mobile Friendly</h4>
+                    <p class="techwave-card-paragraph">Listen on the go with seamless mobile experience and offline
+                        downloads.</p>
+                </article>
+                <article id="global" class="techwave-color">
+                    <img src="./assets/location.png" alt="location">
+                    <h4 class="techwave-card-title">Global Community</h4>
+                    <p class="techwave-card-paragraph">Connect with tech enthusiasts from over 120 countries worldwide.
+                    </p>
+                </article>
+                <aside id="exclusive" class="techwave-color">
+                    <img src="./assets/" alt="">
+                    <h4 class="techwave-card-title">Exclusive Interviews</h4>
+                    <p class="techwave-card-paragraph">Get unprecedented access to industry titans, startup founders,
+                        and tech visionaries. Our host
+                        secures
+                        exclusive
+                        conversations you won't find anywhere else, diving deep into their journeys, failures, and
+                        success
+                        strategies.</p>
+                </aside>
+                <footer class="techwave-color" id="resource">
+                    <img src="./assets/resource.png" alt="resource">
+                    <h4 class="techwave-card-title">Rich Resources</h4>
+                    <p class="techwave-card-paragraph">Access show notes, transcripts, and additional learning materials
+                        for every episode.</p>
+                </footer>
+            </div>
         </section>
         <!-- meet the host section -->
         <section>
@@ -123,6 +132,16 @@
             </div>
         </section>
     </main>
+    <!-- footer section -->
+    <footer class="footer">
+        <h2>Tech<span class="nav-wave">Wave</span></h2>
+        <ul>
+            <li><img src="./assets/spotify.png" alt=""><a href="">Spotify</a></li>
+            <li><img src="./assets/apple-podcast.png" alt=""><a href="">Apple Podcasts <a></li>
+            <li><img src="./assets/youtube-podcast.png" alt=""><a href="">YouTube</a></li>
+            <li><img src="./assets/twitter.png" alt=""><a href="">Twitter</a></li>
+        </ul>
+    </footer>
 </body>
 
 </html>
