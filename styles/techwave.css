@@ -425,32 +425,36 @@ nav>ul>li>a {
     }
 
     .banner {
+        background-size: cover;
         height: auto;
         padding-bottom: 3rem;
-        overflow: hidden;
     }
 
     .banner-content {
         padding: 240px 1rem 40px;
     }
 
+    .banner-content>p {
+        text-align: center;
+    }
+
     #hero-circle {
         width: 220px;
-        top: 20%;
+        top: 30%;
         right: 50%;
         transform: translateX(50%);
     }
 
     #microphone {
         width: 70px;
-        top: 26%;
+        top: 38%;
         right: 50%;
         transform: translateX(50%);
     }
 
     .btn-new {
-        top: 21%;
-        left: 60%;
+        top: 33%;
+        left: 59%;
         padding: 0.3rem 0.6rem;
     }
 
@@ -519,12 +523,12 @@ nav>ul>li>a {
     .h.host-container {
         padding: 2rem 1rem;
     }
-    
+
     .host-info {
         flex-direction: column;
         text-align: center;
     }
-    
+
     .host-icons {
         justify-content: center;
     }
